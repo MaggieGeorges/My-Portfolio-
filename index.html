@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c9c0f808ce.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Maggie Logo.png" class="logo">
+                <ul id="sidemenu ">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+            </nav>
+            <div class="header-text">
+                <p><b>Data Scientist</b></p>
+                <h1>Hello, my name is <span>Margaret Mburu</span><br> From Nairobi, Kenya</h1>
+            </div>
+          </div>
+     </div>
+
+    <!------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="Images/User.JPG">
+                 </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I'm passionate about the dynamic intersection of technology and creativity, with a particular focus on data science, machine learning, coding, web development, AI, Robotics, and article writing. 
+                            Through my st udies, I've developed a robust foundation in writing, research, and analysis, and I am skilled in using Python for coding and data analysis. I'm enthusiastic about leveraging data science and machine learning techniques to extract insights from complex data sets and solve real-world problems.
+                            Additionally, I enjoy exploring web development technologies such as HTML, CSS, and JavaScript to create engaging web experiences and expand my skill set. With a curious and proactive mindset, I am constantly seeking opportunities to apply and enhance my skills in these fields.
+                            I am eager to connect with professionals to learn from their expertise and contribute to meaningful projects. 
+                            I am excited about the possibilities that lie ahead and look forward to connecting with like-minded individuals to exchange ideas, collaborate on projects, and further develop my skills in these areas.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                            <p class="tab-links" onclick="opentab('Education')">Education </p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span><b>Programming Languages:</b></span><br>Python, Java.</li>
+                                <li><span><b>Web Development:</b></span><br>HTML, CSS, JavaScript</li>
+                                <li><span><b>Mobile Development:</b></span><br>Android</li>
+                                <li><span><b> Office Productivity Software:</b></span><br>Microsoft Word, Excel, PowerPoint, Access</li>
+                                <li><span><b>Leadership Skills:</b></span><br>Project management, Team coordination</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span><b>2019-(Current):</b></span><br>SELF EMPLOYED/STUDENT
+                                             Freelancer, Article writer.</li>
+                                <li><span><b>2020-2019:</b></span><br>FAMILY BUSINESS
+                                             Worked for the family as a bread distributor (wholesaler).</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span><b>2020-Current:</b></span><br>DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY
+                                             BSc Business Information Technology</li>
+                                <li><span><b>2019-2016:</b></span><br>ST.ALEXIS RUCHU GIRLS SECONDARY SCHOOL.
+                                             Kenya Certificate of Secondary Education.</li>
+                                <li><span><b>2015-2006:</b></span><br>KAGEMA PRIMARY SCHOOL.
+                                             Kenya Certificate of Primary Education.</li>
+                              </ul>
+                         </div>
+                    </div>
+            </div>
+        </div>
+    </div>  
+
+    <!--------------Services------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Driven Solutions</h2>
+                    <p>I provide tailored data solutions, leveraging advanced analytics and machine learning techniques to extract actionable insights from complex datasets. 
+                        My expertise spans data cleaning, exploratory analysis, predictive modeling, and results visualization. With a focus on driving informed decision-making, 
+                        I deliver impactful solutions that meet your specific business objectives</p>
+                    <a href="https://www.simplilearn.com/data-scientist-job-description-article#:~:text=A%20Data%20Scientist's%20roles%20and,manner%2C%20and%20propose%20solutions%20and">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Tailored Projects</h2>
+                    <p>From crafting intelligent algorithms to building dynamic websites and user-friendly Android apps, I specialize in a wide range of projects.
+                         Whether you're looking for AI and ML expertise, web and app development, in-depth research, or other custom solutions, I'm here to bring your ideas to life.
+                         Let's create something exceptional together.!</p>
+                    <a href="https://www.lovelycoding.org/computer-science-project-ideas-for-final-year/">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-keyboard"></i>
+                    <h2>Content writing</h2>
+                    <p>I write articles that are easy to understand and interesting to read. I can cover a wide range of topics to suit your needs.
+                        I focus on delivering content that effectively communicates your message and engages your audience.
+                    </p>
+                    
+                    <a href="https://contentwriters.com/blog/article-writing-basics-how-to-become-an-article-writer/">learn more</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-------------------portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="pdf-wrapper">
+                        <iframe src="Images/Ruracio Photo Essay.pdf"></iframe>
+                    </div>
+                    <div class="hover-overlay">
+                        <h3>Photo Essay</h3>
+                        <p>Enjoy this photo essay of a traditional vs modern Kikuyu Ruracio.
+                            To access the essay visit the below link.</p>
+                        <a href="https://docs.google.com/presentation/d/1XfvI75wpfLkvQl-mHjvbDn24IawTGw6oT-TvYrcAfaE/edit?usp=sharing">Access the Photo essay</a>
+                    </div>
+                 </div>
+                
+                <div class="work">
+                    <img src="Images/Datascientist.jpg" alt="">
+                    <div class="layer">
+                        <h3>Github Page</h3>
+                        <p> This platform connects you to my github profile page. With it you can be able to collaborate with me.
+                            Feel free to explore my work on my website's portfolio page. You can find it in the repositories section.
+                        </p>
+                        <a href="https://github.com/MaggieGeorges?tab=repositories"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <video controls>
+                        <source src="C:\Users\useer\Desktop\Personal portfolio\Video 2-Preserving our African Cultural Heritage.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="hover-overlay">
+                        <h3>Preserving our African Cultural Heritage</h3>
+                        <p>A video showcasing the importance of preserving African cultural heritage.</p>
+                        <!-- Additional content or links -->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+   <!-------------------contact--------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="  ">
+                <hi class="sub-title">Contact Me</hi>
+                <p><i class="fa-solid fa-paper-plane"></i>maggiegeorges254@gmail.com</p><br>
+                <p><i class="fa-solid fa-phone"></i>0704114808</p><br>
+                <div class="social icons">
+                    <a href="https://twitter.com/Maggy01Georges"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/MaggieGeorges"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mburu-margaret-254mwm"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="C:\Users\useer\Desktop\Personal portfolio\English Resume.pdf" download  class="btn btn2">Download EnglishCV</a>
+                <a href="C:\Users\useer\Desktop\Personal portfolio\Kiswahili Resume.pdf" download  class="btn btn2">Download Kiswahili CV</a>
+                <a href="C:\Users\useer\Desktop\Personal portfolio\Kikuyu Resume.pdf" download  class="btn btn2">Download Kikuyu CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Thankyou!</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Margaret. Made with <i class="fa-solid fa-heart"></i> love</p>
+    </div>
+   </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbw6qChCDi6xkZLQRj4qzWFsNShxAkgI0G85lRTXO7v1X0OSYEIm-jmX5IeSaS3pP9KnjA/exec%3E>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        }
+        
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            slidesPerView: 1,
+            spaceBetween: 10
+        });
+    });
+</script>
+
+    </body>
+</html>
